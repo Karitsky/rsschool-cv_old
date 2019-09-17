@@ -8,10 +8,57 @@ html {
 
 .wrapper {
   max-width: 1024px;
-  height: 100vh;
-  margin: 0 auto;
+  margin: 30px auto;
+  padding: 50px 80px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  color: #222222;
+  background: #F0F0F0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+.photo-with-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-photo {
+  float: left;
+  border: 1px solid #E0E0E0;
+  border-radius: 7px;
+}
+
+h1.title {
+  margin-left: 30px;
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #444444;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts-left {
+  margin-right: 7px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.contacts-right a {
+  text-decoration: none;
+  color: inherit;
 }
 
 section {
-  padding: 10px 0 10px 0;
+  padding: 20px 0;
 }
