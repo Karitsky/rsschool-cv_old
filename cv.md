@@ -8,7 +8,7 @@
 
 **Skype:** v.karitsky
 
-**Telegram:** Valery Karitsky
+**Telegram:** Karitsky
 
 ---
 
