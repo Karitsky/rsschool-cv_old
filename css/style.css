@@ -11,6 +11,10 @@ b {
   color: #000000;
 }
 
+em {
+  font-style: italic;
+}
+
 .wrapper {
   max-width: 1024px;
   margin: 30px auto;
