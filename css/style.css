@@ -6,14 +6,19 @@ html {
   box-sizing: inherit;
 }
 
+b {
+  font-weight: 700;
+  color: #000000;
+}
+
 .wrapper {
   max-width: 1024px;
   margin: 30px auto;
   padding: 50px 80px;
   font-family: 'Lato', sans-serif;
   line-height: 1.4;
-  color: #222222;
-  background: #F0F0F0;
+  color: #333333;
+  background: #F5F5F5;
 }
 
 header {
@@ -21,7 +26,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 40px;
-  border-bottom: 2px solid #E0E0E0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #D0D0D0;
 }
 
 .photo-with-title {
@@ -38,8 +44,8 @@ header {
 
 h1.title {
   margin-left: 30px;
-  font-size: 2.2em;
-  font-weight: 700;
+  font-size: 2.4em;
+  font-weight: 400;
   line-height: 1.2;
   color: #444444;
 }
@@ -60,5 +66,52 @@ h1.title {
 }
 
 section {
+  display: flex;
   padding: 20px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+.section-title {
+  width: 20%;
+  min-width: 7em;
+  margin-right: 30px;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #444444;
+}
+
+h3 {
+  margin-top: 2em;
+  font-size: 1.1em;
+  font-style: italic;
+  color: #999999;
+}
+
+h3:first-of-type {
+  margin-top: 0;
+}
+
+h4 {
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+
+.section-content {
+  width: 80%;
+}
+
+.section-content ul {
+  margin-left: 1.1em;
+  list-style: disc;
+}
+
+.section-content li, p {
+  margin: 0.5em 0;
 }

@@ -80,4 +80,4 @@
 
 ### English: 
 * Speaking/Writing - C1
-* Extensive practice for the last 5 years through communication with native speakers.
+* Extensive practice for the last 5 years through daily communication with native speakers.
