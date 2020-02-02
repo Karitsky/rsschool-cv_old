@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lato-v16-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/lato-v16-latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lato-v16-latin-700.woff2') format('woff2');
+}
+
+b {
+  font-weight: 700;
+  color: #000000;
+}
+
+em {
+  font-style: italic;
+}
+
+.wrapper {
+  max-width: 1024px;
+  min-width: 450px;
+  margin: 30px auto;
+  padding: 50px 80px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  color: #333333;
+  background: #F5F5F5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #D0D0D0;
+}
+
+.photo-with-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-photo {
+  float: left;
+  border: 1px solid #E0E0E0;
+  border-radius: 7px;
+}
+
+h1.title {
+  margin-left: 30px;
+  font-size: 2.4em;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #444444;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts-left {
+  margin-right: 7px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.contacts-right a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+.section-title {
+  width: 20%;
+  min-width: 7em;
+  margin-right: 30px;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #444444;
+}
+
+h3 {
+  margin-top: 2em;
+  font-size: 1.1em;
+  font-style: italic;
+  color: #999999;
+}
+
+h3:first-of-type {
+  margin-top: 0;
+}
+
+h4 {
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+
+.section-content {
+  width: 80%;
+}
+
+.section-content ul {
+  margin-left: 1.1em;
+  list-style: disc;
+}
+
+.section-content li, p {
+  margin: 0.5em 0;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 30px 30px;
+  }
+  
+  header {
+    flex-flow: column;
+  }
+
+  .photo-with-title {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  .section-title {
+    margin-right: 15px;
+  }
+}
