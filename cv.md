@@ -24,7 +24,7 @@
 ### Skills:
 - **Core:** Project Management, Business Consulting, Business Analysis, Budget Estimation and Planning, Requirements Analysis, Presentations, Risk Management, Process Modelling, UI Prototyping
 - **Software methodologies:** Agile, SCRUM, KANBAN, SAFe, Waterfall
-- **Web Technologies:** HTML, CSS, JavaScript (basic)
+- **Web Technologies:** HTML, CSS, JavaScript (junior)
 - **Media Editing:** Photoshop, Lightroom, Illustrator, CorelDraw, Premiere Pro, Vegas Pro
 - **Office Software:** PowerPoint, Word, Excel, Outlook, Project
 
